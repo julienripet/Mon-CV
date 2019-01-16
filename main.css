@@ -28,3 +28,25 @@ body{
     width: auto;
     height: 250px;
 }
+.leftSide{
+    float:left;
+    border:1px solid green;
+    width:200px;
+}
+.rightSide{
+    float:right;
+    border:1px solid red;
+    width:750px;
+}
+#Formation{
+    height:500px;
+    display: block;
+}
+#JobExp{
+    height:500px;
+    display: block;
+}
+#Other{
+    height:500px;
+    display: block;
+}
