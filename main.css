@@ -39,10 +39,11 @@ body{
     float:right;
     border:0px solid red;
     width:750px;
+    margin-bottom: 60px;
 }
 .section{
     height:500px;
-    display: block;
+    display: inline-block;
     text-align: justify;
 }
 h1{
@@ -59,4 +60,14 @@ h3{
     font-size: 22px;
     color: rgb(28, 28, 224);
     
+}
+
+#LeftForm p{
+    margin-bottom: 78px;
+}
+#LeftExp p{
+    margin-bottom: 55px;
+}
+#LeftOhter p{
+    margin-bottom: 75px;
 }
