@@ -19,8 +19,10 @@ body{
 address{
     height:250px;
     margin-top: 3%;
+    margin-bottom:3%;
     border: 3px groove rgb(107, 107, 184);
     padding:2%;
+    padding-bottom: 3.5%;
 }
 address a{
     text-decoration: none;
@@ -30,6 +32,7 @@ address a{
 
 #IntroText{
     float:left;
+    padding-bottom: 0%;
 }
 #ProfilPic{
     float:right;
@@ -52,9 +55,13 @@ address a{
     margin-bottom: 60px;
 }
 .section{
+    padding: 2%;
     display: inline-block;
     text-align: justify;
     margin-bottom: 30px;
+    border: 3px groove rgb(107, 107, 184);
+    background-color: rgb(255, 255, 255);
+
 }
 h1{
     font-size: 40px;
