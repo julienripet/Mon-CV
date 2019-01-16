@@ -1,23 +1,33 @@
 body{
     padding:0;
     margin:0;
+    background-image: url('pictures/Background.png');
     background-color: rgb(211, 228, 238);
 }
 
 #Main{
+    background-color: rgb(229, 236, 240);
     margin:auto;
+    margin-top:5%;
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     border:3px ridge rgb(107, 107, 184);
     padding: 2%;
     border-radius: 5px;
+    margin-bottom:8%;
 }
-#header{
+address{
     height:250px;
     margin-top: 3%;
     border: 3px groove rgb(107, 107, 184);
     padding:2%;
 }
+address a{
+    text-decoration: none;
+    color:rgb(70, 70, 201);
+    font-weight: bold;
+    }
+
 #IntroText{
     float:left;
 }
@@ -42,9 +52,9 @@ body{
     margin-bottom: 60px;
 }
 .section{
-    height:500px;
     display: inline-block;
     text-align: justify;
+    margin-bottom: 30px;
 }
 h1{
     font-size: 40px;
@@ -59,7 +69,10 @@ h2{
 h3{
     font-size: 22px;
     color: rgb(28, 28, 224);
-    
+}
+h3:hover{
+    font-size: 23px;
+    color:rgb(57, 57, 173);
 }
 
 #LeftForm p{
